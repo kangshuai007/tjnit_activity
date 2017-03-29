@@ -1,0 +1,286 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- content的取值为webkit，ie-comp，ie-stand之一，区分大小写，分别代表用极速模式，兼容模式，IE模式打开。 -->
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<!-- 就是什么版本 IE 就用什么版本的标准模式渲染 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!-- 最佳的兼容模式方案，结合考虑以上两种：
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" /> 
+<title>《全城暖冬·为爱童行》天使计划-天甲网络</title> 
+<!-- 利于百度搜索和网站优化 -->
+<!-- 设置网站关键字 -->
+<meta name="keywords" content="全城暖冬,为爱童行,天甲网络">   
+<!-- 设置网站描述 -->
+<meta name="description" content="参加"全城暖冬,为爱童行"大型慈善公益活动吧!把你的余热带给贫困的孩子们"> 
+<!--[if lt IE 9]> 
+<script type="text/javascript" src="static/js/html5.js"></script>
+<script type="text/javascript" src="static/js/respond.min.js"></script>
+<script type="text/javascript" src="static/js/PIE_IE678.js"></script>
+<![endif]--> 
+<link href="static/css/public.css" rel="stylesheet" type="text/css" />
+<link href="static/css/style.css" rel="stylesheet" type="text/css" />
+
+<!--[if IE 6]> 
+<script type="text/javascript" src="Lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('.pngfix,.icon');</script> 
+<![endif]--> 
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+<style type="text/css">
+.link{
+    position:fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: #cd3f00;
+    font-size: 2.2em;   
+}
+.link a{
+   color: white;
+}
+.link a:hover{
+  text-decoration: none;
+}
+
+</style>
+
+</head> 
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+<header>
+ <!-- <div class="link"><a href="http://gongyi.tjnit.com/hdjs/">查看活动现场报道</a></div> -->
+	<div class="row cl wraper m-auto">
+    	<div class="col-3-1 logo" style="float:left">
+            <h1><a href="#" title="天甲网络">天甲网络</a>
+            </h1>
+      </div>
+        <nav class="col-3-2 pt-20 f-l" id="myScrollspy">
+            <ul class="m-nav nav f-r" id="m-nav">
+                <li class="active"><a href="#banner">首页</a></li>
+                <li><a href="#photo">相册</a></li>
+                <li><a href="#huodong">活动详情</a></li>
+                <li><a href="#footer">联系我们</a></li>
+            </ul>    
+        </nav>
+  	</div>
+</header>
+<!-- banner start -->
+<div class="photo">
+    <div class="wraper pos-r m-auto" id="banner">
+      <div class="p-title pos-a">全程暖冬 为爱童行</div>
+          <!-- video start --> 
+          <div class="pos-a video">
+             <div id="videoCon" class="video"></div>
+			<script src="http://qzs.qq.com/tencentvideo_v1/js/tvp/tvp.player.js" charset="utf-8"></script>
+            <script>
+                var video = new tvp.VideoInfo();
+                video.setVid("b01737tt747");//视频vid
+                var player = new tvp.Player(450, 300);//视频高宽
+                player.setCurVideo(video);
+                player.addParam("autoplay","1");//是否自动播放，1为自动播放，0为不自动播放
+                player.addParam("wmode","opaque");
+                player.addParam("pic","static/images/video.jpg");//默认图片地址
+				player.addParam("showend",0);
+                player.addParam("flashskin", "http://imgcache.qq.com/minivideo_v1/vd/res/skins/TencentPlayerMiniSkin.swf");//是否调用精简皮肤，不使用则删掉此行代码
+                player.write("videoCon");
+            </script>
+          </div>
+          <!-- video end -->
+          <p  class="pos-a v-text">寂静的飞雪，当您穿着厚厚的羽绒服打算下楼一赏浪漫白色世界时，泗水山区的孩子们正眼巴巴地望着灰蒙蒙的天空祈祷第二天暖阳的升起，盼望春天的到来……</p>
+    </div>
+</div>
+<div class="tsjh"  id="photo">
+  <div class="wraper m-auto pt-20">
+    	<div class="col-3-2 f-l">
+   	  		<img src="static/images/p_xin.gif" width="564" height="470" alt=""/>
+        </div>
+    	<div class="col-3-1 f-l">
+        	<dl>
+            	<dt class="text-c"><img src="static/images/p_title.jpg" width="136" height="139" alt="天使计划"/></dt>
+                <dd class="f-18 mt-40">去抱抱他们吧，衣服可以为孩子们带去身上的余温；去亲亲他们吧，衣服可以为孩子们带去你来自远方的情谊与爱；去温暖他们吧，让孩子们可以像同龄人那样享受一次家人的宠溺和照顾，卸下本不属于这个年龄的疼痛和重担，无忧无虑、轻松自在的享受一个温暖而与众不同的冬天吧。</dd>
+                <dd class="f-18 mt-40">帮扶对象：山东省济宁市泗水县圣水峪镇北山小学及官庄村</dd>
+            </dl>
+        </div>	
+    </div>	
+</div>
+<div class="hdxq" id="huodong">
+	<div class=" wraper m-auto text-c">
+    	<h2 class="m-auto">活动详情</h2>	
+        <img class="mt-30 mb-30"  src="static/images/icon.png"/>
+        <dl  class="m-auto">
+        	<dt class="f-l"><img src="static/images/axjz.png"></dt>
+            <dd><P  class="text-l">1、冬衣、棉鞋、等御寒衣物</P><p class="text-l">2、笔、书包、图书、笔记本、乒乓球等学习及体育用品</p></dd>
+        </dl>	
+        <dl class="m-auto pt-20">
+        	<dt class="f-l"><img src="static/images/dybz.png"></dt>
+            <dd><P class="text-l">1.请选择七八成新、无污渍无破洞、素净的衣服，适合乡村劳作生活。不要太时髦，以御寒冬衣为主</P><p  class="text-l">2.如果是旧衣物，请消毒清洗干净后晒干</p><p class="text-l">3.把衣物折叠整齐后分类包装。我们建议大家用塑料袋、编织袋打包封好。</p></dd>
+        </dl>
+        <div  class="img-add mt-20 m-auto" style="width:480px;height:260px;border:#94a8c3 solid 5px;" id="dituContent"></div>
+    </div>
+</div>
+<!-- banner end --> 
+<footer id="footer" class="pos-r">
+   <div class="mask"></div>
+   <div class=" wraper m-auto pb-20">
+      	<h2 class="title text-center">联系我们</h2>
+        <ul>
+            <li class="f-li-1">联系电话：0533-8482222</li>
+            <li class="f-li-2">官方微博：天甲网络 公司邮箱：admin@tinit.com</li>
+        </ul>
+        <dl class="activity ml-60">
+            <dd>活动时间：2015年11月29日10:00-15:00</dd>
+            <dd>活动地点：共青团路王府井广场</dd>
+            <dd>联系方式：13220695049 15695455888 0533-8482222</dd>
+            <dd>主办单位：淄博广电新媒体中心<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;淄博天使之翼爱心联盟<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天甲网络科技</dd>
+        </dl>
+      	<div class="cl"></div>
+        <div class="f-sub mt-30 ml-20 pos-r">
+           	<p class="join text-c ml-10">已有<span id="count">0</span>人支持</p>
+           	<img src="static/images/submit.png" width="260" height="61" alt="点击参加" class="joinIn"/>
+            <div class="share pos-a" style="z-index:9000; top:-350px; left:250px;display:none" >
+                 <div class="weixin" style="margin-left:240px;"> 
+                    <img src="static/images/weixn.jpg" width="137" height="130" alt="微信" />
+                    <p>微信公众号：tianjia0601</p>
+                    <p>微信搜索：天甲网络</p>
+                 </div>
+                <img src="static/images/share.png" width="449" height="230" alt="分享" >
+            </div>            
+
+        </div>
+    </div>
+  </div>
+</footer>
+<!-- .footer end --> 
+<script type="text/javascript" src="static/js/jquery.min.js"></script> 
+<script type="text/javascript" src="static/js/bootstrap.js"></script>
+<script>
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+    
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(118.059023,36.811819);//定义一个中心点坐标
+        map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+    
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+    
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+  var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+  map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+  var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+  map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+  var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+  map.addControl(ctrl_sca);
+    }
+    
+    //标注点数组
+    var markerArr = [{title:"王府井广场",content:"我的备注",point:"118.05856|36.812093",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+     ];
+    //创建marker
+    function addMarker(){
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+      var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+      var iw = createInfoWindow(i);
+      var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+      marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                        borderColor:"#808080",
+                        color:"#333",
+                        cursor:"pointer"
+            });
+      
+      (function(){
+        var index = i;
+        var _iw = createInfoWindow(i);
+        var _marker = marker;
+        _marker.addEventListener("click",function(){
+            this.openInfoWindow(_iw);
+          });
+          _iw.addEventListener("open",function(){
+            _marker.getLabel().hide();
+          })
+          _iw.addEventListener("close",function(){
+            _marker.getLabel().show();
+          })
+        label.addEventListener("click",function(){
+            _marker.openInfoWindow(_iw);
+          })
+        if(!!json.isOpen){
+          label.hide();
+          _marker.openInfoWindow(_iw);
+        }
+      })()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json){
+        var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        return icon;
+    }
+    
+    initMap();//创建和初始化地图
+	
+	
+$(function (){
+    $('.joinIn').click(function(){
+      $('.mask').toggle();  
+      $('.share').toggle();
+    
+      $.get("http://gongyi.tjnit.com/count/gocount.php?parm=joins",function(data){})
+      var x=$("#count").text();
+      $("#count").text(parseInt(x)+1);
+  })
+
+	$.ajax({
+    	type : "get",
+    	url : "http://gongyi.tjnit.com/count/gocount.php?parm=browse",
+    	dataType : "jsonp",
+    	jsonp: "callback",//传递给请求处理程序或页面的，用以获得jsonp回调函数名的参数名(默认为:callback)
+    	jsonpCallback:"success_jsonpCallback",//自定义的jsonp回调函数名称，默认为jQuery自动生成的随机函数名
+    	success : function(json){
+    	   $("#count").text(json);	 
+    	},
+	});
+
+	$('.share').click(function(){
+		  $('.share').toggle();	
+   		$('.mask').toggle();
+	})
+
+})
+</script>
+</body>
+</html>
